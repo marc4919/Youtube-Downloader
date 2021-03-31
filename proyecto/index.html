@@ -1,86 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta charset="utf-8">
-    <link rel="StyleSheet" href="index.css">
-
-    <link rel="shortcut icon" href="src/img/favicon.png">
-    <title>Marcus and Xoxemy's Music</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="StyleSheet">
+    <title>Fondo animado</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
+    <header class="bg_animate">
+        <div class="header_nav">
+            <div class="contenedor">
+                <h1>Video Downloader</h1>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Servicios</a>
 
-    <!-- Menu de Navegación y Iconos -->
-
-    <div class="container">
-        <div class="navbar">
-            <a href="index.html"><img src="src/img/logo.png" class="logo" alt="logo"></a>
-            <nav>
-                <ul>
-                    <li><a href="index.php">Login</a></li>
-                    <li><a href="register.html">Registro</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <!-- Texto Izquierda -->
-
-        <div class="row">
-            <div class="col">
-                <h1>Marcus and Xoxemy's</h1>
-                <div class="p1">
-                    <p>Music</p>
-                </div>
+                </nav>
             </div>
-
         </div>
-    </div>
 
+        <section class="banner contenedor">
+            <secrion class="banner_title">
+                <h2>Necesitas descargar <br> un video de YouTube?</h2>
+                <a href="/register/register.php" class="llamanos">Registrate</a>
+            </secrion>
+            <div class="banner_img">
+                <video width="700" height="520" controls>
+                    <source src="src/index/tutorial.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="burbujas">
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+            <div class="burbuja"></div>
+        </div>
+    </header>
 </body>
-
 </html>
