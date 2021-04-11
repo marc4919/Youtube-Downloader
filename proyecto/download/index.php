@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ?>
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="es" class="h-100">
 
 <head>
     <meta charset="utf-8">
@@ -90,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             <div class="card formSmall">
                 <div class="card-header">
-                    <strong>Video y Audio</strong>
+                    <strong>Formato Estandar</strong>
                 </div>
                 <div class="card-body">
                     <table class="table ">
@@ -112,7 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             <div class="card formSmall">
                 <div class="card-header">
-                    <strong>Video o Audio</strong>
+                    <strong>Otros formatos</strong>
                 </div>
                 <div class="card-body">
                     <table class="table ">
